@@ -4,10 +4,16 @@ body{
 }
 
 .navigation a{
-    display: inline-block;
+    display: block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
     width: 50%;
     border: 3px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Impact;
+    font-weight: bold;
 }
