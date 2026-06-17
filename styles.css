@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 
-.navigation a{
+.navigation article{
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
