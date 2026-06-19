@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(right, blue, white);
+    height: 100%;
     /*background-color: paleturquoise;*/
     text-align: center;
 }
