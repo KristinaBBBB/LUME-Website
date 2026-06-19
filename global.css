@@ -19,13 +19,13 @@ h1{
 
 .consult-button{
     margin-right: 15px;
-    /*width: 50%;*/
+    width: 30%;
     background-color: green;
 }
 
 .declutering-button{
     text-align: center;
-    /*width: 50%;*/
+    width: 30%;
     background-color: yellow;
 }
 
