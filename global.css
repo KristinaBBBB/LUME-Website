@@ -17,16 +17,23 @@ h1{
     font-weight: bold;
 }
 
-#consultButton{
-    text-align: right;
-    width: 50%;
+.consult-button{
+    margin-right: 15px;
+    /*width: 50%;*/
+    background-color: green;
 }
 
-#decluterButton{
-    text-align: left;
-    width: 50%;
+.declutering-button{
+    text-align: center;
+    /*width: 50%;*/
+    background-color: yellow;
 }
 
-.navigation a{
+.button-link{
+    display:inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
     text-align: center;
 }
