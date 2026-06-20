@@ -19,8 +19,8 @@ h1{
     font-weight: bold;
 }
 
-.consult-button{
-    /*margin-right: 15px;*/
+.consulting-button{
+    text-align: center;
     width: 30%;
     background-color: rgb(83, 179, 83);
 }
@@ -33,9 +33,9 @@ h1{
 
 .button-link{
     display:inline-block;
-    padding: 40px 40px;
+    padding: 100px;
+    margin: 10px;
     color: Black;
     text-decoration: none;
     border-radius: 5px;
-    text-align: center;
 }
