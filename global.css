@@ -14,9 +14,14 @@ body{
 }*/
 
 h1{
-    font-size: 40px;
-    font-family: Impact;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
+}
+
+p{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .consulting-button{
