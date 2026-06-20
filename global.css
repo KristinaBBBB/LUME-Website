@@ -5,13 +5,13 @@ body{
     text-align: center;
 }
 
-.navigation div{
+/*.navigation div{
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
     border: black 3px solid;
-}
+}*/
 
 h1{
     font-size: 40px;
@@ -20,7 +20,7 @@ h1{
 }
 
 .consult-button{
-    margin-right: 15px;
+    /*margin-right: 15px;*/
     width: 30%;
     background-color: rgb(83, 179, 83);
 }
@@ -33,7 +33,7 @@ h1{
 
 .button-link{
     display:inline-block;
-    padding: 10px 20px;
+    padding: 40px 40px;
     color: Black;
     text-decoration: none;
     border-radius: 5px;
