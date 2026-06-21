@@ -59,9 +59,10 @@ p{
     text-decoration: none;
     border-radius: 5px;
     background-color: whitesmoke;
+    transition: transform 0.3s, background-color 0.3s ease;
 }
 
-a:hover, a:focus{
+.button-link:hover, .button-link:focus{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.1); 
 }
