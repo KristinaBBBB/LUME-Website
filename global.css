@@ -34,20 +34,23 @@ p{
 .consulting-button{
     text-align: center;
     width: 30vw;
-    background-color: whitesmoke;
 }
 
 .declutering-button{
     text-align: center;
     width: 30vw;
-    background-color: whitesmoke;
 }
 
 .button-link{
     display:inline-block;
-    padding: 10vw 10vw;
+    padding: 5vw 10vw;
     margin: 10px;
     color: Black;
     text-decoration: none;
     border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+a:hover, a:focus{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
