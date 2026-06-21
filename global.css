@@ -1,6 +1,8 @@
 body{
-    background: linear-gradient(right, blue, white);
+    background: linear-gradient(to bottom, blue, white);
+    background-repeat: no-repeat;
     min-height: 100vh;
+    margin: 0;
     /*background-color: paleturquoise;*/
     text-align: center;
     max-width: 100%;
@@ -32,13 +34,13 @@ p{
 .consulting-button{
     text-align: center;
     width: 30vw;
-    background-color: rgb(83, 179, 83);
+    background-color: whitesmoke;
 }
 
 .declutering-button{
     text-align: center;
     width: 30vw;
-    background-color: rgb(173, 173, 88);
+    background-color: whitesmoke;
 }
 
 .button-link{
