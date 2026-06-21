@@ -1,12 +1,22 @@
-body{
-    background: linear-gradient(to bottom, blue, white);
+:root{
+    background: linear-gradient(to bottom, rgb(0, 148, 222), white);
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
-    /*background-color: paleturquoise;*/
     text-align: center;
     max-width: 100%;
 }
+
+/*body{
+    background: linear-gradient(to bottom, rgb(0, 148, 222), white);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+    
+}
+*/
 
 /*.navigation div{
     display: inline-block;
