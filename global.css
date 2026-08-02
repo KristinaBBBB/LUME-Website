@@ -14,6 +14,7 @@
 
 
 h1{
+    margin: 1.5rem;
     font-size: 5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
@@ -38,12 +39,25 @@ p{
 .split-link{
     margin: 10px;
     width: 90vw;
+    height: 40vh;
     color: Black;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
     background-color: whitesmoke;
     transition: transform 0.3s, background-color 0.3s ease;
+}
+
+#consulting-btn{
+    background-image: url(".assets/SplitPage/consulting/consulting_img_small.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#declutering-btn{
+    background-image: url(".assets/SplitPage/decluttering/decluttering_img_small.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .button-link:hover, .button-link:focus{
