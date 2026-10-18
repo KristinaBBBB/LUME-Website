@@ -19,7 +19,7 @@ The individual service pages are still under development, so I've temporarily ad
 
 Once the service pages are ready, I'll remove the temporary dialog functionality and the esisting links will take visitors directly to those pages.
 
-## Temporary Service Dialogs
+### Temporary Service Dialogs
 Since the individual service pages aren't finished yet, I added interactive dialogs that appear when visitors click either service panel.
 
 Instead of changing or removing the original navigation links, I used JavaScript to temporarily intercept clicks and display a native HTML `<dialog>` element. The script also updates the dialog's heading depending on which service was selected, so both panels can share the same dialog.
