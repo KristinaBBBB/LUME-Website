@@ -111,11 +111,11 @@ main {
 
 /* Panel photographs */
 #consulting-btn {
-    background-image: url('./assets/SplitPage/consulting/landscape.jpg');
+    background-image: url('./assets/SplitPage/consulting/thumbnail1.jpg');
 }
 
 #decluttering-btn {
-    background-image: url('./assets/SplitPage/decluttering/landscape.jpg');
+    background-image: url('./assets/SplitPage/decluttering/thumbnail1.jpg');
 }
 
 /* Interactive states */
@@ -159,14 +159,6 @@ main {
         max-width: 1360px;
         padding: clamp(20px, 4vw, 64px);
         gap: clamp(20px, 3vw, 48px);
-    }
-
-    #consulting-btn {
-        background-image: url("./assets/SplitPage/consulting/portrait.jpg");
-    }
-
-    #decluttering-btn {
-        background-image: url("./assets/SplitPage/decluttering/portrait.jpg");
     }
 }
 
