@@ -9,6 +9,8 @@ document.querySelectorAll(".link-wrapper").forEach(link => {
         event.preventDefault(); // Temporarily stop navigation
         dialogTitle.textContent = link.querySelector("h2").textContent;
         dialog.showModal();
+        dialogTitle.focus({preventScroll: True})
+        dialog.scrollTop = 0;
     });
 });
 

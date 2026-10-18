@@ -12,6 +12,8 @@
     color: #34465a;
     text-align: center;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 
 .service-dialog::backdrop{
@@ -48,6 +50,28 @@
     background: #edf3f7;
     outline: 3px solid #587d9b;
     outline-offset: 3px;
+}
+
+@media (orientation: landscape) and (max-height: 600px){
+    .service-dialog{
+        max-height: 80dvh;
+        padding: 20px 28px;
+    }
+
+    .service-dialog h2{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .service dialog p{
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+
+    #close-dialog{
+        margin-top: 12px;
+    }
 }
 
 @media (min-width: 768px){
