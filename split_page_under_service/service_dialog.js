@@ -15,3 +15,17 @@ document.querySelectorAll(".link-wrapper").forEach(link => {
 document.getElementById("close-dialog").addEventListener("click", () => {
     dialog.closest();
 });
+
+dialog.addEventListener("click", event => {
+    const rect = dialog.getBoundingClientRect();
+
+    const clickedOutside =
+        event.clientX < rect.left ||
+        event.clientX > rect.right ||
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom;
+
+    if (clickedOutside){
+        dialog.closest();
+    }
+});
