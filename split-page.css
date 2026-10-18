@@ -111,10 +111,12 @@ main {
 
 /* Panel photographs */
 #consulting-btn {
-    background-image: url('./assets/SplitPage/consulting/thumbnail2.jpg');
+    background-position: center center;
+    background-image: url('./assets/SplitPage/consulting/thumbnail1.jpg');
 }
 
 #decluttering-btn {
+    background-position: center center;
     background-image: url('./assets/SplitPage/decluttering/thumbnail1.jpg');
 }
 
