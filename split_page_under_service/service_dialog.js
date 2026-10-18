@@ -13,7 +13,7 @@ document.querySelectorAll(".link-wrapper").forEach(link => {
 });
 
 document.getElementById("close-dialog").addEventListener("click", () => {
-    dialog.closest();
+    dialog.close();
 });
 
 dialog.addEventListener("click", event => {
@@ -26,6 +26,6 @@ dialog.addEventListener("click", event => {
         event.clientY > rect.bottom;
 
     if (clickedOutside){
-        dialog.closest();
+        dialog.close();
     }
 });

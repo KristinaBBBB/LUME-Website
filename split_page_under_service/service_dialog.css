@@ -1,8 +1,10 @@
 .service-dialog{
+    box-sizing: border-box;
+    margin: auto;
     position: fixed;
     width: min(90%, 450px);
     max-height: 85vh;
-    padding: 32px;
+    padding: 24px;
     border: none;
     border-radius: 0;
     background: #fff;
@@ -17,23 +19,23 @@
 
 .service-dialog h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     font-weight: normal;
     margin-bottom: 16px;
 }
 
 .service-dialog p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 12px;
 }
 
-.close-dialog{
+#close-dialog{
     margin-top: 20px;
-    padding: 10x 28px;
+    padding: 10px 28px;
     border: 1px solid #34465a;
-    border-radius: 3px;
+    border-radius: 0;
     background: transparent;
     color: #34465a;
     font: inherit;
@@ -41,8 +43,18 @@
     cursor: pointer;
 }
 
-.close-dialog:hover, .close-dialog:focus{
+#close-dialog:hover, #close-dialog:focus{
     background: #edf3f7;
     outline: 3px solid #587d9b;
     outline-offset: 3px;
+}
+
+@media (min-width: 768px){
+    .service-dialog{
+        padding: 32px;
+    }
+
+    .service-dialog h2{
+        font-size: 2rem;
+    }
 }
