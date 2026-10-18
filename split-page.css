@@ -111,11 +111,15 @@ main {
 
 /* Panel photographs */
 #consulting-btn {
-    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 65%;
     background-image: url('./assets/SplitPage/consulting/thumbnail2.jpg');
 }
 
 #decluttering-btn {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
     background-image: url('./assets/SplitPage/decluttering/thumbnail1.jpg');
 }
