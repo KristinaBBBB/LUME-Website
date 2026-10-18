@@ -28,6 +28,12 @@ Visitors can close the dialog using the Close button, the Escape key, or by clic
 
 I also added ARIA attributes through JavaScript to identify the links as dialog triggers. This way, when the service pages are ready, I can simply disconnect the temporary JavaScript and CSS files, and the original links will work as intended again.
 
+## Technologies Used
+- **HTML**: Page structure and content
+- **CSS**: Layout, responsive design, typography, and styling
+- **JavaScript**: Temporary interactive dialogs for the service links
+- **GitHub Pages**: Hosting the live website.
+
 ## Running the Project
 You can view the current version through the [live website](https://kristinabbbb.github.io/LUME-Website/).
 
