@@ -1,13 +1,26 @@
 :root{
     /* Variables: */
     --accent-color: rgb(0, 148, 222);
-    background: linear-gradient(to bottom, var(--accent-color), white);
-    background-repeat: no-repeat;
-    min-height: 100vh;
     margin: 0;
     text-align: center;
     max-width: 100%;
     font-size: 10px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--accent-color), white)
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex-shrink: 0;
 }
 
 .nav_bar{
@@ -55,23 +68,29 @@ p{
 .split-nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    width: 100%;
+    min-height: 0;
 }
 
 .link-wrapper{
     display: block;
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
 }
 
 .split-link{
-    margin: 10px;
-    width: 90vw;
-    height: 40vh;
-    color: Black;
-    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: black;
     text-align: center;
     border-radius: 5px;
     background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s ease;
 }
@@ -96,18 +115,6 @@ p{
 @media screen and (min-width: 600px){
     .split-nav{
         flex-direction: row;
-        gap: 20px;
-        padding: 10px;
-    }
-
-    .link-wrapper{
-        flex: 1;
-        min-width: 0;
-    }
-
-    .split-link{
-        width: 100%;
-        margin: 0;
     }
 }
 
