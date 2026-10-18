@@ -15,10 +15,6 @@ The homepage uses a split-screen layout to display the two sevices side by side 
 
 Each panel contains a background image, the name of the sevice and a link to its corresponding page.
 
-The individual service pages are still under development, so I've temporarily added a dialog that appears when either panel is clicked. This lets visitors know that a service isn't available yet without sending them to an unfinished page.
-
-Once the service pages are ready, I'll remove the temporary dialog functionality and the esisting links will take visitors directly to those pages.
-
 ### Temporary Service Dialogs
 Since the individual service pages aren't finished yet, I added interactive dialogs that appear when visitors click either service panel.
 
