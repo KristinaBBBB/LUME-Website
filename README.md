@@ -19,6 +19,15 @@ The individual service pages are still under development, so I've temporarily ad
 
 Once the service pages are ready, I'll remove the temporary dialog functionality and the esisting links will take visitors directly to those pages.
 
+## Temporary Service Dialogs
+Since the individual service pages aren't finished yet, I added interactive dialogs that appear when visitors click either service panel.
+
+Instead of changing or removing the original navigation links, I used JavaScript to temporarily intercept clicks and display a native HTML `<dialog>` element. The script also updates the dialog's heading depending on which service was selected, so both panels can share the same dialog.
+
+Visitors can close the dialog using the Close button, the Escape key, or by clicking outside it.
+
+I also added ARIA attributes through JavaScript to identify the links as dialog triggers. This way, when the service pages are ready, I can simply disconnect the temporary JavaScript and CSS files, and the original links will work as intended again.
+
 ## Running the Project
 You can view the current version through the [live website](https://kristinabbbb.github.io/LUME-Website/).
 
