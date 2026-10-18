@@ -1,8 +1,6 @@
 :root{
     /* Variables: */
     --accent-color: rgb(0, 148, 222);
-
-    box-sizing: border-box;
     background: linear-gradient(to bottom, var(--accent-color), white);
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -79,18 +77,18 @@ p{
 }
 
 #consulting-btn{
-    background-image: url(".assets/SplitPage/consulting/consulting_img_small.jpg");
+    background-image: url("./assets/SplitPage/consulting/consulting_img_small.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#declutering-btn{
-    background-image: url(".assets/SplitPage/decluttering/decluttering_img_small.jpg");
+#decluttering-btn{
+    background-image: url("./assets/SplitPage/decluttering/decluttering_img_small.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.button-link:hover, .button-link:focus{
+.link-wrapper:hover .split-link, .link-wrapper:focus, .split-link{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.1); 
 }
@@ -98,6 +96,18 @@ p{
 @media screen and (min-width: 600px){
     .split-nav{
         flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .link-wrapper{
+        flex: 1;
+        min-width: 0;
+    }
+
+    .split-link{
+        width: 100%;
+        margin: 0;
     }
 }
 
